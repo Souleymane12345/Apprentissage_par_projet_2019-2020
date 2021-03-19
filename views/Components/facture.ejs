@@ -1,0 +1,180 @@
+<div>
+    <h4>
+        Facturation du courant en temps réel 
+    </h4>
+</div>
+
+<div class="row">
+    <div class="col-md-6 col-xl-3 esp">
+        <div class="card widget-chart-two">
+            <div class="card-body esp">
+                <div class="media align-items-center">
+                    <div class="widget-chart-two-content media-body">
+                        <p class="text-muted mb-0">CONSOMMATION EN EAU</p>
+                        <h3 class="mb-0">*** / m3</h3>
+                        <p style="margin-top:2rem;">
+                            <i class="material-icons" style="font-size:130px;color:#00c853;">format_color_fill </i>
+                        </p>
+                    </div>
+                    <div dir="ltr" class="knob-chart">
+                        <input data-plugin="knob" data-width="80" data-height="80" data-linecap=round data-bgColor="rgba(150, 150, 150, 0.1)"
+                               data-fgColor="#0acf97" value="45" data-skin="tron" data-angleOffset="180"
+                               data-readOnly=true data-thickness=".1"/>
+                    </div>
+                </div>
+                <br><br><br>
+                
+                <i class="material-icons float-right text-muted">equalizer</i>
+                <h6 class="text-muted text-uppercase mt-0">Facturations en CFA</h6>
+                <h2><span data-plugin="counterup">15.9</span> FCFA</h2>
+                
+                <br><br><br>
+                <span><a href="" class="btn btn-light waves-effect waves-light" data-toggle="modal" data-target="#accordion-modal">Conseils pratiques</a></span>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-xl-3 esp">
+        <div class="card widget-chart-two">
+            <div class="card-body esp">
+                <div class="media align-items-center">
+                    <div class="widget-chart-two-content media-body">
+                        <p class="text-muted mb-0">CONSOMMATION EN ELECTRICITE</p>
+                        <h3 class="mb-0"><%=valeur%> / A</h3>
+                        <p style="margin-top:2rem;">
+                            <i class="material-icons" style="font-size:130px;color:#f57f17 ;">flash_on</i>
+                        </p>
+                    </div>
+                    <div dir="ltr" class="knob-chart">
+                        <input data-plugin="knob" data-width="80" data-height="80" data-linecap=round data-bgColor="rgba(150, 150, 150, 0.1)"
+                               data-fgColor="#f9bc0b" value="<%=valeur%>" data-skin="tron" data-angleOffset="180"
+                               data-readOnly=true data-thickness=".1"/>
+                    </div>
+                </div>
+                
+                <!--<div class="row">
+                    <div class="col s6" style="border: solid;">
+
+                    </div>
+                    <div class="col s6" style="border: solid;">
+
+                    </div>
+                </div>-->
+                <br><br><br>
+                
+                <!--<i class="material-icons float-right text-muted">equalizer</i>
+                <h6 class="text-muted text-uppercase mt-0">Facturations en CFA</h6>
+                <h2><span data-plugin="counterup">15.9</span> FCFA</h2>-->
+                
+                <br><br><br>
+                <span><a href="" class="btn btn-light waves-effect waves-light" data-toggle="modal" data-target="#accordion-modal">Conseils pratiques</a></span>
+            </div>
+        </div>
+    </div>
+
+    
+  <!--  <div class="col-sm-6 col-xl-3">
+        <div class="card widget-chart-two">
+            <div class="card-body">
+                <div class="media align-items-center">
+                    <div class="widget-chart-two-content media-body">
+                        <p class="text-muted mb-0">Statistics</p>
+                        <h3 class="mb-0">$954</h3>
+                    </div>
+                    <div dir="ltr" class="knob-chart">
+                        <input data-plugin="knob" data-width="80" data-height="80" data-linecap=round data-bgColor="rgba(150, 150, 150, 0.1)"
+                               data-fgColor="#f1556c" value="14" data-skin="tron" data-angleOffset="180"
+                               data-readOnly=true data-thickness=".1"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-xl-3">
+        <div class="card widget-chart-two">
+            <div class="card-body">
+                <div class="media align-items-center">
+                    
+                    <div class="widget-chart-two-content media-body">
+                        <p class="text-muted mb-0">Total Revenue</p>
+                        <h3 class="mb-0">$32,540</h3>
+                    </div>
+                    <div dir="ltr" class="knob-chart">
+                        <input data-plugin="knob" data-width="80" data-height="80" data-linecap=round data-bgColor="rgba(150, 150, 150, 0.1)"
+                               data-fgColor="#2d7bf4" value="60" data-skin="tron" data-angleOffset="180"
+                               data-readOnly=true data-thickness=".1"/>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+    </div>
+    
+</div>
+<!-- end row -->
+
+<!-- /.modal -->
+<div id="accordion-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content p-0">
+            <div id="accordion">
+                <div class="card mb-0">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="m-0">
+                            <a href="#collapseOne" class="text-dark" data-toggle="collapse" aria-expanded="true" aria-controls="collapseOne">
+                                Collapsible Group Item #1
+                            </a>
+                        </h5>
+                    </div>
+        
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                            non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                            tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil
+                            anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                            excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                            you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-0">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="m-0">
+                            <a href="#collapseTwo" class="collapsed text-dark" data-toggle="collapse" aria-expanded="false" aria-controls="collapseTwo">
+                                Collapsible Group Item #2
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                            non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                            tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil
+                            anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                            excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                            you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-0">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="m-0">
+                            <a href="#collapseThree" class="collapsed text-dark" data-toggle="collapse" aria-expanded="false" aria-controls="collapseThree">
+                                Collapsible Group Item #3
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                            non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                            tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil
+                            anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                            excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                            you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

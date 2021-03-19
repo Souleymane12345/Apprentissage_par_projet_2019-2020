@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- App favicon -->
+     <link rel="shortcut icon" href="https://coderthemes.com/highdmin/layouts/assets/images/favicon.ico">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+     <!-- App css -->
+     <link href="/assets/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bs-default-stylesheet" />
+     <link href="/assets/assets/css/app.min.css" rel="stylesheet" type="text/css" id="app-default-stylesheet" />
+
+     <link href="/assets/assets/css/bootstrap-dark.min.css" rel="stylesheet" type="text/css" id="bs-dark-stylesheet" />
+     <link href="/assets/assets/css/app-dark.min.css" rel="stylesheet" type="text/css" id="app-dark-stylesheet" />
+
+     <!-- icons -->
+     <link href="/assets/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="auth-fluid-pages loading pb-0">
+    <div class="auth-fluid" style="background-image: url(https://cdn.pixabay.com/photo/2019/09/02/15/43/smarthome-4447518_960_720.jpg);">
+        <!--Auth fluid left content -->
+        <div class="auth-fluid-form-box">
+            <div>
+                <div class="card-body">
+
+                    <!-- Logo -->
+                    <div class="auth-brand text-center">
+                        <div class="auth-logo">
+                            <a href="" class="logo auth-logo-dark">
+                                <span class="logo-lg" style="font-size: 50px;">
+                                    SMART SETUP
+                                </span>
+                            </a>
+        
+                            <a href="" class="logo auth-logo-light">
+                                <span class="logo-lg" style="font-size: 50px;">
+                                    SMART SETUP
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- title-->
+                    <div class="text-center pt-3">
+                        <h4 class="mt-0">Connexion</h4>
+                        <p class="text-muted mb-4">Entrez votre identifiant smart et votre mot de passe pour accéder à votre profile</p>
+                    </div>
+
+                    <!-- form -->
+                    <form action="/login" method="POST">
+                        <div class="form-group">
+                            <label for="emailaddress">Id Smart</label>
+                            <input class="form-control" type="text" id="emailaddress" name="username" required="" placeholder="Entrez votre id">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Mot de passe</label>
+                            <input type="password" id="password" class="form-control" name="password" placeholder="Entrez votre mot de passe">
+                        </div>
+                        
+                        <!--iv class="form-group mb-3">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="checkbox-signin">
+                                <label class="custom-control-label" for="checkbox-signin">Remember me</label>
+                            </div>
+                        </div>-->
+                        <div class="form-group mb-0 text-center">
+                            <button class="btn btn-primary btn-block" type="submit" name="submit">Se connecter </button>
+                        </div>
+                        
+                        <!--<div class="text-center mt-4">
+                            <p class="text-muted">Don't have an account? <a href="pages-register.html" class="text-dark ml-1">Sign Up</a></p>
+                        </div>-->
+                    </form>
+                    <!-- end form-->
+
+                    <!-- Footer-->
+                    <footer class="footer footer-alt">
+                        <p class="text-muted"><script>document.write(new Date().getFullYear())</script> &copy; SAMRT SETUP  by <a href="#">MDNRN</a></p>
+                    </footer>
+
+                </div> <!-- end .card-body -->
+            </div>
+        </div>
+        <!-- end auth-fluid-form-box-->
+
+    </div>
+    <!-- end auth-fluid-->
+</body>
+  <!-- /Right-bar -->
+
+        <!-- Right bar overlay-->
+        <div class="rightbar-overlay"></div>
+
+        <!-- Vendor js -->
+        <script src="/assets/assets/js/vendor.min.js"></script>
+
+        <!-- Apex-charts js -->
+        <script src="/assets/assets/libs/apexcharts/apexcharts.min.js"></script>
+
+        <!-- KNOB JS -->
+        <script src="/assets/assets/libs/jquery-knob/jquery.knob.min.js"></script>
+
+        <!-- Dashboard init js-->
+        <script src="/assets/assets/js/pages/dashboard.init.js"></script>
+
+        <!-- App js -->
+        <script src="/assets/assets/js/app.min.js"></script>
+</html>
